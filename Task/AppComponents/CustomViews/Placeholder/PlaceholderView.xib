@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlaceholderView" customModule="Task" customModuleProvider="target">
+            <connections>
+                <outlet property="imgPlaceHolder" destination="r8R-dw-djC" id="NNe-rf-eTI"/>
+                <outlet property="lblMessage" destination="12I-Ed-gp3" id="F6t-Iq-2fg"/>
+                <outlet property="vwContent" destination="iN0-l3-epB" id="SP6-yf-gZ0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cart" translatesAutoresizingMaskIntoConstraints="NO" id="r8R-dw-djC">
+                    <rect key="frame" x="32" y="130.5" width="256" height="227"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message to Display!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="12I-Ed-gp3">
+                    <rect key="frame" x="20" y="367.5" width="280" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="12I-Ed-gp3" secondAttribute="trailing" constant="20" id="Ebj-5g-135"/>
+                <constraint firstItem="12I-Ed-gp3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Lir-mf-efm"/>
+                <constraint firstItem="r8R-dw-djC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-40" id="X0R-8r-hxx"/>
+                <constraint firstItem="r8R-dw-djC" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.8" id="duA-09-23d"/>
+                <constraint firstItem="12I-Ed-gp3" firstAttribute="top" secondItem="r8R-dw-djC" secondAttribute="bottom" constant="10" id="lI5-fr-DKN"/>
+                <constraint firstItem="r8R-dw-djC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="paG-Ft-ibM"/>
+                <constraint firstItem="r8R-dw-djC" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.4" id="xYC-AT-Xug"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cart" width="312" height="162"/>
+    </resources>
+</document>

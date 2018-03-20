@@ -1,0 +1,111 @@
+
+[{
+  "product_id" : "01",
+  "product_name": "Apple",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "80",
+  "price": "120",
+  "rating": "4.0",
+  "product_manufacturer" : "Happy Fruits Pvt Ltd",
+  "product_image_url": "apple"
+},
+{
+  "product_id" : "02",
+  "product_name": "Orange",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "50",
+  "price": "80",
+  "rating": "4.1",
+  "product_manufacturer" : "Omega Fruits Pvt Ltd",
+  "product_image_url": "orange"
+},
+{
+  "product_id" : "03",
+  "product_name": "Mango",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "165",
+  "price": "180",
+  "rating": "4.0",
+  "product_manufacturer" : "Happy Fruits Pvt Ltd",
+  "product_image_url": "mango"
+},
+{
+  "product_id" : "04",
+  "product_name": "Pineapple",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "100",
+  "price": "170",
+  "rating": "3.3",
+  "product_manufacturer" : "Indian Fruits Pvt Ltd",
+  "product_image_url": "pineapple"
+},
+{
+  "product_id" : "05",
+  "product_name": "Plum",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "140",
+  "price": "200",
+  "rating": "4.5",
+  "product_manufacturer" : "Omega Fruits Pvt Ltd",
+  "product_image_url": "plum"
+},
+{
+  "product_id" : "06",
+  "product_name": "Avocado",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "330",
+  "price": "500",
+  "rating": "4.9",
+  "product_manufacturer" : "Natural Fruits Pvt Ltd",
+  "product_image_url": "avocado"
+},
+{
+  "product_id" : "07",
+  "product_name": "Jackfruit",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "300",
+  "price": "400",
+  "rating": "5.0",
+  "product_manufacturer" : "Natural Fruits Pvt Ltd",
+  "product_image_url": "jackfruit"
+},
+{
+  "product_id" : "08",
+  "product_name": "Banana",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "120",
+  "price": "180",
+  "rating": "4.3",
+  "product_manufacturer" : "Omega Fruits Pvt Ltd",
+  "product_image_url": "banana"
+},
+{
+  "product_id" : "09",
+  "product_name": "Strawberry",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "240",
+  "price": "340",
+  "rating": "4.4",
+  "product_manufacturer" : "Natural Fruits Pvt Ltd",
+  "product_image_url": "strawberry"
+},
+{
+  "product_id" : "10",
+  "product_name": "Lemon",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "30",
+  "price": "50",
+  "rating": "4.9",
+  "product_manufacturer" : "Natural Fruits Pvt Ltd",
+  "product_image_url": "lemon"
+},
+{
+  "product_id" : "11",
+  "product_name": "Watermelon",
+  "product_description": "Fruit that you can eat",
+  "offer_price": "180",
+  "price": "300",
+  "rating": "5.0",
+  "product_manufacturer" : "India Fruits Pvt Ltd",
+  "product_image_url": "watermelon"
+}]
